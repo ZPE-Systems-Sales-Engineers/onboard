@@ -1,0 +1,9 @@
+{
+	"hostname": "myGateSR",
+	"domain_name": "localdomain",
+	"enable_ipv4_ip_forward": "yes",
+	"enable_ipv6_ip_forward": "no",
+	"ipv4_loopback": "", 
+	"ipv6_loopback": "",
+	"reverse_path_filtering": "loose_mode"
+}

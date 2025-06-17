@@ -1,0 +1,5 @@
+{
+	"Server": "pool.ntp.org",
+	"Zone": "utc",
+	"enable_date_and_time_synchronization": "no"
+}

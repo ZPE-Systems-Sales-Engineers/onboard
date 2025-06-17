@@ -1,0 +1,20 @@
+{
+	"system": "Nodegrid Gate SR",
+	"licenses": "25",
+	"software": "v6.0.21 (Feb 16 2025 - 07:43:33)",
+	"cpu": "Intel(R) Atom(TM) CPU C3758 @ 2.20GHz",
+	"cpu_cores": "8",
+	"bogomips_per_core": "4400.00",
+	"serial_number": "235990320",
+	"uptime": "0 days,  2 hours,  50 minutes",
+	"boot mode": "Legacy",
+	"secure boot": "Disabled",
+	"model": "GateSR",
+	"part_number": "GSR-T8-UPG1",
+	"bios_version": "90816T00",
+	"psu": "2",
+	"revision tag": "r1",
+	"bios sed compatible": "no",
+	"ssd sed compatible": "yes",
+	"ssd sed compatible": "yes"
+}

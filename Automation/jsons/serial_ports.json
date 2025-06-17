@@ -1,0 +1,27 @@
+{
+	"ttyS1": {
+		"name": "detection",
+		"web_url": "",
+		"launch_url_via_html5": "yes",
+		"baud_rate": "115200",
+		"flow_control": "None",
+		"parity": "None",
+		"data_bits": "8",
+		"stop_bits": "1",
+		"mode": "enabled",
+		"enable_device_state_detection_based_in_data_flow": "yes"
+	},
+	"ttyS2": {
+		"name": "Testing_Dev",
+                "web_url": "",
+                "launch_url_via_html5": "no",
+                "baud_rate": "57600",
+                "flow_control": "None",
+                "parity": "None",
+                "data_bits": "8",
+                "stop_bits": "1",
+                "mode": "on-demand",
+		"enable_device_state_detection_based_in_data_flow": "yes"
+
+	}
+}

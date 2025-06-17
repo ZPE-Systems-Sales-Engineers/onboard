@@ -1,0 +1,34 @@
+{
+   --name $VMNAME \
+   --ram $RAM --vcpus $CPUS \
+   --cpu host-passthrough \
+   --osinfo linux --os-variant  linux2020 \
+   --network bridge=br0,model=virtio \
+   --network bridge=br1,model=virtio \
+   --network bridge=br2,model=virtio \
+   --network bridge=br3,model=virtio \
+   --disk path="$VMPATH"/"$FILENAME" \
+   --cdrom "$VMPATH"/"$customiso" \
+   --graphics vnc,listen=0.0.0.0 --noautoconsole \
+   --import \
+   --autostart --check-cpu
+
+customiso="spcustom.iso"
+filename="EdgeConnect.qcow2"
+VMNAME='EdgeConnect'
+CPUS=2
+RAM=6144
+FILENAME="EdegeConnect.qcow2"
+VMPATH='/run/media/sdb1/SilverPeak'
+   virt-install \
+
+
+	"name": "EdgeConnect",
+	"ram": "4096",
+	"vcpu": "2",
+	"osinfo": "linux",
+	"os-variant": "linux2020",
+	"network": {[{"bridge": "br0", "model": "virtio"}, {"bridge": "br1", "model": "virtio"}]}
+	"disk": {"path": "/var/libvirt/"},
+	"cdron": ""
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Clien42",
+	"initiate_tunnel": "start",
+	"ike_profile": "nodegrid",
+	"authentication_method": "pre-shared_key",
+	"secret": "Nodegrid78",
+	"left_id": "@East32",
+	"left_address": "ip_address",
+	"left_ip_address": "10.200.120.100",
+	"left_source_ip_address": "", 
+	"left_subnet": "", 
+	"right_id": "@West",
+	"right_address": "10.200.120.1",
+	"right_source_ip_address": "10.200.120.1",
+	"right_subnet": "",
+	"enable_monitoring": "no"
+}

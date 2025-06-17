@@ -1,0 +1,10 @@
+{
+    "100": {
+	    "tagged": "netS1,netS2",
+	    "untagged": "backplane0"
+    },
+    "200": {
+        "tagged": "netS3,netS4",
+        "untagged": "backplane1"
+    }
+}

@@ -1,0 +1,43 @@
+{
+	"SFP0": {
+		"type": "ethernet",
+		"set_as_primary_connection": "no",
+		"ipv4_mode": "static",
+		"ipv4_ip_address": "192.168.16.32",
+		"ipv4_bitmask": "255.255.255.0",
+		"ipv4_gateway": "192.168.16.1",
+		"ipv4_dns_server": "8.8.8.8"
+	},
+	"BACKPLANE0": {
+		"type": "ethernet",
+		"ipv4_mode": "static",
+		"ipv4_ip_address": "10.220.0.1",
+		"ipv4_bitmask": "255.255.255.0"
+	},
+	"Brdgbg1": {
+		"type": "bridge",
+		"bridge_interfaces": "backplane1",
+		"ipv4_mode": "static",
+		"ipv4_ip_address": "142.120.16.10",
+		"ipv4_bitmask": "255.255.255.0",
+		"ipv4_gateway": "142.120.16.1"
+	},
+	"VLAN": {
+		"type": "vlan",
+		"name": "VLAN100",
+		"vlanid": "100",
+		"interface": "backplane0",
+		"ipv4_mode": "static",
+		"ipv4_address": "10.20.6.10",
+		"ipv4_bitmask": "255.255.255.0",
+		"ipv4_gateway": "10.20.6.1"
+	},
+	"ATTlte": {
+		"type": "mobile_broadband_gsm",
+		"ethernet_interface": "cdc-wdm0",
+		"set_as_primary_connection": "no",
+		"sim1_apn_configuration": "manual",
+		"sim1_access_point_name": "broadband",
+		"ipv4_mode": "dhcp"
+	}
+}
