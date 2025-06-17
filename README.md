@@ -1,3 +1,7 @@
+Introduction:
+	The purpose of the project is to allows customer to onboard the NG SR products for remote location with minimal
+ works needed to get the unit up and running as soon as possible.
+
 Usage: 
 The configuration is defined in the json files in jsons folder.
 Uncomment the lines in the script onboarding.sh under Automation folder to run the wanted configuration 
